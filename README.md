@@ -9,7 +9,7 @@
 
 
 ## Developing
-
+examples from node.js book - starting to develop understanding and usage of node.js
 
 
 ### Tools
