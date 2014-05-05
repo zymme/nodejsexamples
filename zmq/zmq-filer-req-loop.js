@@ -29,8 +29,6 @@ requester.connect("tcp://localhost:5433");
 
 
 //adding for loop to show no parallelism
-
-
 for(let i = 1; i <= 3; i++) {
 	
 	//send request for content
