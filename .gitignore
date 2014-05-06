@@ -1,3 +1,4 @@
 databases/cache/**
 databases/node_modules/**
+.DS_Store
 databases/node_modules
