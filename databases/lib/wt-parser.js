@@ -14,10 +14,16 @@ module.exports = function(filename, callback) {
 		if(err) {
 			return callback(err);
 		}
+//		console.log("data read in parser = " + data);
 		
 		let wtjson = JSON.parse(data);
 		
-		console.log("JSON read from file " + wtjson);
+//		console.log("JSON read from file " + wtjson);
+		
+		
+		callback(null, data.toString());
+		
+//		return wtjson;
 		
 	}); //end read file
 	

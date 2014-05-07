@@ -5,6 +5,8 @@
   "author": " Zed zed@hoser.com http://zedssite.com/books",
   "dependencies": {
     "request": "^2.34.0",
-    "cheerio": "^0.15.0"
+    "cheerio": "^0.15.0",
+    "async": "^0.8.0",
+    "file": "^0.2.2"
   }
 }
